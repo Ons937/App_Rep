@@ -1,13 +1,22 @@
-# TP1 – Connexion Client/Serveur en Java
 
-## Objectif
-Créer une communication entre un client et un serveur en Java avec les sockets TCP.
+---
 
-## Structure du projet
-- `serverPackage/Server.java`
-- `clientPackage/Client.java`
+## 🔧 Fonctionnement du service
 
-## Lancement
-1. Lancer le serveur :
-```java
-java serverPackage.Server
+### Côté Client
+- Saisie d’un entier **x** via le clavier
+- Envoi de **x** au serveur via un socket
+- Réception du résultat **x × 5** depuis le serveur
+- Affichage du résultat
+
+### Côté Serveur
+- Attente de la connexion du client
+- Réception de l’entier **x**
+- Calcul de **x × 5**
+- Envoi du résultat au client
+
+---
+
+## 🖥️ Exemple d’exécution
+
+### Client
