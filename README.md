@@ -1,10 +1,13 @@
-# 💻 Application Client Java
+# TP1 – Connexion Client/Serveur en Java
 
-## 📦 Structure du projet
-- Package : `clientPackage`
-- Classe principale : `Client.java`
+## Objectif
+Créer une communication entre un client et un serveur en Java avec les sockets TCP.
 
-## 🚀 Lancement
-```bash
-javac src/clientPackage/Client.java
-java clientPackage.Client
+## Structure du projet
+- `serverPackage/Server.java`
+- `clientPackage/Client.java`
+
+## Lancement
+1. Lancer le serveur :
+```java
+java serverPackage.Server
