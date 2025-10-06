@@ -1,5 +1,10 @@
+## 🎯 Objectif de l’activité
+
+Étendre l’application Client/Serveur développée dans l’Activité 1-1 pour ajouter un traitement côté serveur :  
+> Le client envoie un entier **x** au serveur, qui retourne le résultat de **x × 5**.
 
 ---
+
 
 ## 🔧 Fonctionnement du service
 
@@ -15,8 +20,3 @@
 - Calcul de **x × 5**
 - Envoi du résultat au client
 
----
-
-## 🖥️ Exemple d’exécution
-
-### Client
